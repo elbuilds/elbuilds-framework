@@ -9,5 +9,5 @@ LANG=en_US.UTF-8 && {
   command "$SIGN_SH"
   command "$CREATEREPO_SH"
   # No need to deal with return value because '-e' has set.
-} 2>&1 | tee last.log
+} 2>&1 | tee process.log
 

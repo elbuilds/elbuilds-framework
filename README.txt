@@ -1,9 +1,8 @@
-Welcome to Arondight's site. This direcotry is the elbuilds repository for Enterprise Linux. You can find some packages with new version here :)
+This is the elbuilds repository for Enterprise Linux.
 
 Usage:
 
-$ sudo rpm --import http://elbuilds.website/elbuilds/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
-$ sudo yum install http://elbuilds.website/elbuilds/7/x86_64/Packages/elbuilds-release/1.0-1/elbuilds-release-1.0-1.el7.elbuilds.noarch.rpm
+$ sudo rpm --import http://repo.elbuilds.website/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
+$ sudo yum install http://repo.elbuilds.website:8000/7/x86_64/Packages/elbuilds-release/latest/elbuilds-release-latest.el7.elbuilds.noarch.rpm
 $ sudo yum makecache
-$ sudo yum update
 
